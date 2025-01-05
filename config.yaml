@@ -1,0 +1,14 @@
+# config.yaml
+
+# Read path of old rosbag (ROS 2 .db3 file)
+read_bag_path: "examples/NuScenes-v1.0-trainval-scene-0039"
+
+# Write path of new rosbag file
+write_bag_path: "examples/nuScene0039"
+
+# Output groundtruth path
+groundtruth_path: "examples/0039_groud_truth.csv"
+
+# List of cameras to read and convert
+camera_list:
+  - camera_name: "CAM_FRONT"
